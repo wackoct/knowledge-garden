@@ -23,6 +23,11 @@ jobs:
       - uses: actions/checkout@v2
       - name: Logseq Publish 🚩
         uses: pengx17/logseq-publish@main
+<<<<<<< HEAD
+=======
+        with:
+          version: "master"
+>>>>>>> 418481a851689e8dad463b0894d681d09192e830
       - name: add a nojekyll file
         run: touch $GITHUB_WORKSPACE/www/.nojekyll
       - name: Deploy 🚀
